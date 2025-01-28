@@ -1,0 +1,124 @@
+body {
+    box-sizing: border-box;
+    background-color:rgb(255, 255, 253);
+  }
+  main { 
+    margin: 0 auto;
+    width: 80vw;
+    display: grid;
+    place-content: center;
+  }
+  .fragment_identifier{
+    background-color: white;
+    border: .5px solid rgba(0,0,0,0.555);
+    border-radius: 1000px;
+    height: 100px;
+    width: 100px;
+    position: fixed; 
+    bottom: 10px; 
+    right: 50px; 
+    z-index: 99;
+  }
+section{
+    width: 80vw;
+    height: 90vh;
+    align-items: center;
+}
+.top_nav_main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 1em;
+   
+  }
+  .center{
+    justify-self: space-between; 
+    gap: 5em;
+  }
+
+   h1{
+    font-size: 5em;
+    font-family: "Space Grotesk", serif;
+  }
+  h2{
+    font-family: "Space Grotesk", serif;
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 1.8em; 
+    font-family: "Poppins", serif;
+    font-weight: 300;
+  }
+  .bio_text  span{
+    font-weight: 700;
+    font-size: .8em;
+  }
+
+  .back_btn {
+    height: 70px;
+    font-family: monospace;
+    font-size: 1.2em;
+    color: black;
+    border-radius: 10000px;
+    border: .5px solid rgba(0,0,0,0.555);
+    background-color: rgb(253, 155, 43);
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  
+  }
+  .link, ul, li, a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1em;
+  }
+ 
+  .footer{
+    margin-top: 2em;
+    margin: 0 auto;
+    width: 90vw; 
+    font-size: .5em;
+    text-align: center;
+  }
+  .footer_line{
+    font-size: .5px;
+    color: rgba(0, 0, 0, 0.461);
+  }
+
+ 
+
+  /* responsiveness */
+  @media only screen and (max-width: 600px) {
+    h1{
+      font-size: 3em;
+      font-family: "Space Grotesk", serif;
+    }
+    h2{
+      font-family: "poppins", serif;
+      font-size: 1.6em;
+    }
+    p{
+      font-size: 1.1em; 
+      font-family: "Poppins", serif;
+      font-weight: 300;
+    }
+    ul, li, a{
+      list-style: none;
+      text-decoration: none;
+      font-size: 1em;
+      font-family: "Poppins", serif;
+  
+    }
+   
+  }
+
+  
